@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal homepage showcasing coursework, projects, and interests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aaliyah Fievre | Personal Homepage</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<header>
+    <img src="images/aboutme/mypfp.jpeg" alt="Profile photo of Aaliyah Fievre" class="profile-pic">
+    <h1>Aaliyah Fievre</h1>
+    <p>Computer Science Student | Web Programming</p>
+</header>
+
+<audio id="background-music" autoplay loop controls>
+    <source src="images/mp3/ENHYPEN%20-%20Helium%20%20Live%20from%20Vevo%20Studios.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<nav>
+    <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#coursework">Coursework</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="profile">
+        <h2>Welcome</h2>
+        <p>Hello! Welcome to my personal homepage. This site highlights my coursework, projects, and interests.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <article>
+            <h3>Bio</h3>
+            <p>
+                Hello! I'm Aaliyah Fievre, a Computer Science student. I am currently a senior in my last semester before I graduate. 
+                I have a passion for marketing and ux/ui design. My goals for the 2026 year is to graduate with my degree and 
+                start my career in tech. I would also like to travel more and explore new places while learning about different cultures.
+                This homepage showcases my projects and skills I've developed throughout my academic journey. 
+                While also exploring my personal interests and hobbies.
+
+
+            </p>
+        </article>
+    </section>
+
+    <section id="coursework">
+        <h2>Coursework & Assignments</h2>
+        <div class="tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="homework">Homework</button>
+                <button class="tab-button" data-tab="inclass">In Class</button>
+                <button class="tab-button" data-tab="outside">Outside Class</button>
+                <button class="tab-button" data-tab="projects">Projects</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="homework">
+                    <h3>Homework Assignments</h3>
+                    <div class="subtabs">
+                        <div class="subtab-buttons">
+                            <button class="subtab-button active" data-subtab="hw1">Homework 1</button>
+                            <button class="subtab-button" data-subtab="hw2">Homework 2</button>
+                        </div>
+                        <div class="subtab-content">
+                            <div class="subtab-pane active" id="hw1">
+                                <p><a href="https://codd.cs.gsu.edu/~afievre2/wp/hw/1/homepage/index.html" target="_blank">Homework 1</a></p>
+                            </div>
+                            <div class="subtab-pane" id="hw2">
+                                <p>Coming soon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="inclass">
+                    <h3>In Class Work</h3>
+                    <div class="subtabs">
+                        <div class="subtab-buttons">
+                            <button class="subtab-button active" data-subtab="ic1">In Class 1</button>
+                            <button class="subtab-button" data-subtab="ic2">In Class 2</button>
+                            <button class="subtab-button" data-subtab="ic3">In Class 3</button>
+                        </div>
+                        <div class="subtab-content">
+                            <div class="subtab-pane active" id="ic1">
+                                <p><a href="https://codd.cs.gsu.edu/~afievre2/wp/inclass/1/index.html" target="_blank">In Class Assignment 1</a></p>
+                            </div>
+                            <div class="subtab-pane" id="ic2">
+                                <p>Coming soon</p>
+                            </div>
+                            <div class="subtab-pane" id="ic3">
+                                <p><a href="https://codd.cs.gsu.edu/~afievre2/wp/inclass/1/inclass3/index3.html" target="_blank">In Class Assignment 3</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="outside">
+                    <h3>Outside Class</h3>
+                    <div class="subtabs">
+                        <div class="subtab-buttons">
+                            <button class="subtab-button active" data-subtab="oc1">Outside Class 1</button>
+                            <button class="subtab-button" data-subtab="oc2">Outside Class 2</button>
+                            <button class="subtab-button" data-subtab="oc3">Outside Class 3</button>
+                        </div>
+                        <div class="subtab-content">
+                            <div class="subtab-pane active" id="oc1">
+                                <img src="images/assignments/cw1.jpg" alt="Outside Class Assignment 1" class="assignment-image">
+                            </div>
+                            <div class="subtab-pane" id="oc2">
+                                <p><a href="http://codd.cs.gsu.edu/~afievre2/wp/cw/1/cw2/index.html" target="_blank">Outside Class Assignment 2</a></p>
+                            </div>
+                            <div class="subtab-pane" id="oc3">
+                                <p><a href="https://codd.cs.gsu.edu/~afievre2/wp/cw/1/cw3/index.html" target="_blank">Outside Class Assignment 3</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="projects">
+                    <h3>Projects</h3>
+                    <div class="subtabs">
+                        <div class="subtab-buttons">
+                            <button class="subtab-button active" data-subtab="pr1">Project 1</button>
+                            <button class="subtab-button" data-subtab="pr2">Project 2</button>
+                        </div>
+                        <div class="subtab-content">
+                            <div class="subtab-pane active" id="pr1">
+                                <p> Coming Soon</p>
+                            </div>
+                            <div class="subtab-pane" id="pr2">
+                                <p>Coming soon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <p>I enjoy reading books, traveling, and going to concerts in my free time! 
+            My favorite genres of music are kpop, metal, and alternative rock. 
+            My favorite kpop group is Enhypen, I go to a lot of their concerts and events!
+            I sometimes host my own events with my friends for fun at local cafes.
+            I usually travel to new places by myself my latest solo trip was to South Korea!
+        </p>
+        <div class="hobbies-carousel">
+            <button class="carousel-arrow carousel-prev" onclick="changeSlide(-1)">❮</button>
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                    <div class="carousel-item active">
+                        <img src="images/hobbies_interests/enhypencon.JPG" alt="signed Enhypen Riki picket at concert">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/enhypenevent.JPG" alt="Enhypen event">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/enhypenvr.JPG" alt="Enhypen VR experience">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/katseyecon.jpeg" alt="Katseye concert">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/txtcon.JPG" alt="TXT concert">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/txtevent.jpg" alt="TXT event">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/korea1.jpeg" alt="Korea trip">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/korea2.jpeg" alt="Korea trip">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/korea3.jpeg" alt="Korea trip">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/hobbies_interests/korea4.jpeg" alt="Korea trip">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow carousel-next" onclick="changeSlide(1)">❯</button>
+        </div>
+        <div class="carousel-counter">
+            <span id="current-slide">1</span> / <span id="total-slides">10</span>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-buttons">
+            <a href="https://github.com/afiev724" target="_blank" class="contact-btn">GitHub</a>
+            <a href="https://www.linkedin.com/in/afievre" target="_blank" class="contact-btn">LinkedIn</a>
+            <a href="mailto:afievre2@student.gsu.edu" class="contact-btn">Email</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Aaliyah Fievre. All rights reserved.</p>
+</footer>
+
+<script>
+    // Tab switching functionality
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+
+    tabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const tabName = button.getAttribute('data-tab');
+            
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            tabPanes.forEach(pane => pane.classList.remove('active'));
+            
+            button.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        });
+    });
+
+    // Sub-tab switching functionality
+    const subtabButtons = document.querySelectorAll('.subtab-button');
+    const subtabPanes = document.querySelectorAll('.subtab-pane');
+
+    subtabButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const subtabName = button.getAttribute('data-subtab');
+            const parentTabs = button.closest('.subtabs');
+            
+            parentTabs.querySelectorAll('.subtab-button').forEach(btn => btn.classList.remove('active'));
+            parentTabs.querySelectorAll('.subtab-pane').forEach(pane => pane.classList.remove('active'));
+            
+            button.classList.add('active');
+            document.getElementById(subtabName).classList.add('active');
+        });
+    });
+
+    // Carousel functionality
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.carousel-item');
+    const totalSlides = slides.length;
+
+    function changeSlide(direction) {
+        currentSlide += direction;
+        
+        if (currentSlide >= totalSlides) {
+            currentSlide = 0;
+        } else if (currentSlide < 0) {
+            currentSlide = totalSlides - 1;
+        }
+
+        const slideContainer = document.querySelector('.carousel-slides');
+        slideContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+        
+        document.getElementById('current-slide').textContent = currentSlide + 1;
+    }
+</script>
+</body>
+</html>
